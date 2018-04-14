@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93EF8F08E0A649538E52FB4B /* Pods_mypark_NTU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416A550F52E836901F257CAE /* Pods_mypark_NTU.framework */; };
+		F25C5FC4208198C9004D0E9F /* giViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C5FC3208198C9004D0E9F /* giViewController.swift */; };
+		F25C5FC620819B28004D0E9F /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C5FC520819B28004D0E9F /* swift+gif.swift */; };
+		F25C5FC820819CE6004D0E9F /* myPark Background.gif in Resources */ = {isa = PBXBuildFile; fileRef = F25C5FC720819CE6004D0E9F /* myPark Background.gif */; };
+		F2960F72205B3D5E00080D4F /* LMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2960F70205B3D5D00080D4F /* LMGaugeView.m */; };
+		F2960F78205B4EE100080D4F /* LMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2960F76205B4EE000080D4F /* LMViewController.m */; };
+		F2DD33A4205338C900334CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD33A3205338C900334CDB /* AppDelegate.swift */; };
+		F2DD33A6205338C900334CDB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD33A5205338C900334CDB /* FirstViewController.swift */; };
+		F2DD33A8205338C900334CDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD33A7205338C900334CDB /* SecondViewController.swift */; };
+		F2DD33AB205338C900334CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DD33A9205338C900334CDB /* Main.storyboard */; };
+		F2DD33AD205338C900334CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DD33AC205338C900334CDB /* Assets.xcassets */; };
+		F2DD33B0205338C900334CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DD33AE205338C900334CDB /* LaunchScreen.storyboard */; };
+		F2DD33B82053773900334CDB /* CliftonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD33B72053773900334CDB /* CliftonViewController.swift */; };
+		F2DD33BA2053807200334CDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2DD33B92053807200334CDB /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		416A550F52E836901F257CAE /* Pods_mypark_NTU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypark_NTU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0AB64E751AC7B0971084C8 /* Pods-mypark NTU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypark NTU.release.xcconfig"; path = "Pods/Target Support Files/Pods-mypark NTU/Pods-mypark NTU.release.xcconfig"; sourceTree = "<group>"; };
+		4E59290EFB549107038EBACC /* Pods-mypark NTU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypark NTU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mypark NTU/Pods-mypark NTU.debug.xcconfig"; sourceTree = "<group>"; };
+		F25C5FC3208198C9004D0E9F /* giViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giViewController.swift; sourceTree = "<group>"; };
+		F25C5FC520819B28004D0E9F /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
+		F25C5FC720819CE6004D0E9F /* myPark Background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "myPark Background.gif"; sourceTree = "<group>"; };
+		F2960F70205B3D5D00080D4F /* LMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGaugeView.m; sourceTree = "<group>"; };
+		F2960F71205B3D5D00080D4F /* LMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGaugeView.h; sourceTree = "<group>"; };
+		F2960F76205B4EE000080D4F /* LMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMViewController.m; sourceTree = "<group>"; };
+		F2960F77205B4EE100080D4F /* LMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMViewController.h; sourceTree = "<group>"; };
+		F2A9CA1E20558A79008DD25E /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2A9CA1F20558B67008DD25E /* mypark NTU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mypark NTU.entitlements"; sourceTree = "<group>"; };
+		F2DD33A0205338C900334CDB /* mypark NTU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mypark NTU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DD33A3205338C900334CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2DD33A5205338C900334CDB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F2DD33A7205338C900334CDB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F2DD33AA205338C900334CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2DD33AC205338C900334CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2DD33AF205338C900334CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2DD33B1205338C900334CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DD33B72053773900334CDB /* CliftonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliftonViewController.swift; sourceTree = "<group>"; };
+		F2DD33B92053807200334CDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DD339D205338C900334CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EF8F08E0A649538E52FB4B /* Pods_mypark_NTU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FD4B638634E5B75F305E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E59290EFB549107038EBACC /* Pods-mypark NTU.debug.xcconfig */,
+				4E0AB64E751AC7B0971084C8 /* Pods-mypark NTU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43B86D7F6621EAB4C7711852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416A550F52E836901F257CAE /* Pods_mypark_NTU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2828CDB20542E7300D17694 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2DD33A3205338C900334CDB /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2828CDC20542E8400D17694 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2DD33A9205338C900334CDB /* Main.storyboard */,
+				F2DD33AE205338C900334CDB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2828CDD20542EBC00D17694 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F25C5FC720819CE6004D0E9F /* myPark Background.gif */,
+				F25C5FC520819B28004D0E9F /* swift+gif.swift */,
+				F2DD33A5205338C900334CDB /* FirstViewController.swift */,
+				F2DD33A7205338C900334CDB /* SecondViewController.swift */,
+				F2DD33B72053773900334CDB /* CliftonViewController.swift */,
+				F25C5FC3208198C9004D0E9F /* giViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2DD3397205338C900334CDB = {
+			isa = PBXGroup;
+			children = (
+				F2DD33A2205338C900334CDB /* mypark NTU */,
+				F2DD33A1205338C900334CDB /* Products */,
+				23FD4B638634E5B75F305E99 /* Pods */,
+				43B86D7F6621EAB4C7711852 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DD33A1205338C900334CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DD33A0205338C900334CDB /* mypark NTU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DD33A2205338C900334CDB /* mypark NTU */ = {
+			isa = PBXGroup;
+			children = (
+				F2A9CA1F20558B67008DD25E /* mypark NTU.entitlements */,
+				F2A9CA1E20558A79008DD25E /* Example-Bridging-Header.h */,
+				F2960F71205B3D5D00080D4F /* LMGaugeView.h */,
+				F2960F70205B3D5D00080D4F /* LMGaugeView.m */,
+				F2960F77205B4EE100080D4F /* LMViewController.h */,
+				F2960F76205B4EE000080D4F /* LMViewController.m */,
+				F2828CDB20542E7300D17694 /* Model */,
+				F2828CDC20542E8400D17694 /* View */,
+				F2828CDD20542EBC00D17694 /* Controller */,
+				F2DD33AC205338C900334CDB /* Assets.xcassets */,
+				F2DD33B1205338C900334CDB /* Info.plist */,
+				F2DD33B92053807200334CDB /* GoogleService-Info.plist */,
+			);
+			path = "mypark NTU";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2DD339F205338C900334CDB /* mypark NTU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DD33B4205338C900334CDB /* Build configuration list for PBXNativeTarget "mypark NTU" */;
+			buildPhases = (
+				67DD193C95CB837BF25FE9A3 /* [CP] Check Pods Manifest.lock */,
+				F2DD339C205338C900334CDB /* Sources */,
+				F2DD339D205338C900334CDB /* Frameworks */,
+				F2DD339E205338C900334CDB /* Resources */,
+				5DF2BFE5427885DEC0BD2F65 /* [CP] Embed Pods Frameworks */,
+				DD1B167ABD76DE1CC984ED5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mypark NTU";
+			productName = "mypark NTU";
+			productReference = F2DD33A0205338C900334CDB /* mypark NTU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DD3398205338C900334CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "MR.Robot 💀";
+				TargetAttributes = {
+					F2DD339F205338C900334CDB = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F2DD339B205338C900334CDB /* Build configuration list for PBXProject "mypark NTU" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2DD3397205338C900334CDB;
+			productRefGroup = F2DD33A1205338C900334CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DD339F205338C900334CDB /* mypark NTU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DD339E205338C900334CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DD33B0205338C900334CDB /* LaunchScreen.storyboard in Resources */,
+				F2DD33AD205338C900334CDB /* Assets.xcassets in Resources */,
+				F25C5FC820819CE6004D0E9F /* myPark Background.gif in Resources */,
+				F2DD33BA2053807200334CDB /* GoogleService-Info.plist in Resources */,
+				F2DD33AB205338C900334CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF2BFE5427885DEC0BD2F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mypark NTU/Pods-mypark NTU-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypark NTU/Pods-mypark NTU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67DD193C95CB837BF25FE9A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mypark NTU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1B167ABD76DE1CC984ED5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypark NTU/Pods-mypark NTU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DD339C205338C900334CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25C5FC620819B28004D0E9F /* swift+gif.swift in Sources */,
+				F2DD33B82053773900334CDB /* CliftonViewController.swift in Sources */,
+				F2960F72205B3D5E00080D4F /* LMGaugeView.m in Sources */,
+				F2DD33A8205338C900334CDB /* SecondViewController.swift in Sources */,
+				F25C5FC4208198C9004D0E9F /* giViewController.swift in Sources */,
+				F2DD33A4205338C900334CDB /* AppDelegate.swift in Sources */,
+				F2DD33A6205338C900334CDB /* FirstViewController.swift in Sources */,
+				F2960F78205B4EE100080D4F /* LMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2DD33A9205338C900334CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DD33AA205338C900334CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2DD33AE205338C900334CDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DD33AF205338C900334CDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2DD33B2205338C900334CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2DD33B3205338C900334CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2DD33B5205338C900334CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E59290EFB549107038EBACC /* Pods-mypark NTU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "mypark NTU/mypark NTU.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				INFOPLIST_FILE = "mypark NTU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joselson.mypark-NTU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mypark NTU/Example-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F2DD33B6205338C900334CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0AB64E751AC7B0971084C8 /* Pods-mypark NTU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "mypark NTU/mypark NTU.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				INFOPLIST_FILE = "mypark NTU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joselson.mypark-NTU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mypark NTU/Example-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DD339B205338C900334CDB /* Build configuration list for PBXProject "mypark NTU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DD33B2205338C900334CDB /* Debug */,
+				F2DD33B3205338C900334CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DD33B4205338C900334CDB /* Build configuration list for PBXNativeTarget "mypark NTU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DD33B5205338C900334CDB /* Debug */,
+				F2DD33B6205338C900334CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2DD3398205338C900334CDB /* Project object */;
+}
